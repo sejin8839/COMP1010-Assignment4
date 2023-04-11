@@ -1,4 +1,4 @@
-# Assignment written by: ___Sejin Yoon_______
+# Assignment written by: ___Sejin Yoon___
 
 # The next line allows this file to access code in the other file.
 # Just accept the need for it for now, but it will soon be explained.
@@ -72,5 +72,3 @@ for count in range(0, 5):
     draw_box()
     draw_box()
     print()
-
-
