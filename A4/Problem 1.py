@@ -20,18 +20,16 @@ print() # keep this line to add a space between sections
 
 # Keep the above example in your final assignment.
 
-def count_digits(number):
-    return len(str(number))
 
 # Part 1.a - add lines between this comment and the print statement to make a
 # closed diamond shape by calling the above functions.
 
-draw_up_triangle(5)
-draw_down_triangle(5)
+draw_up_triangle()
+draw_down_triangle()
+draw_down_triangle()
+draw_down_triangle()
+draw_up_triangle()
 
-for i in range(1, 5):
-    draw_up_triangle(5-i)
-    draw_down_triangle(5-i)
 
 print() # keep this line to add a space between sections
 
@@ -40,8 +38,11 @@ print() # keep this line to add a space between sections
 # Part 1.b - add lines that make a house shape (roof and square house)
 # by calling the above functions.
 
-draw_up_triangle(3)
-draw_box(3,3)
+draw_up_triangle()
+draw_box()
+draw_box()
+draw_box()
+draw_box()
 print() # keep this line to add a space between sections
 
 
@@ -49,26 +50,27 @@ print() # keep this line to add a space between sections
 # (nose cone with the point on top, 2 squares for a body, and an engine nozzle with the wide part aiming down)
 # by calling the above functions.
 
-draw_up_triangle(3)
-draw_box(3,3)
-draw_down_triangle(2)
+draw_up_triangle()
+draw_box()
+draw_box()
+draw_down_triangle()
+draw_box()
+draw_box()
+draw_down_triangle()
+draw_box()
+draw_box()
+draw_down_triangle()
 print() # keep this line to add a space between sections
 
 # Part 1.d - the code below will repeat a drawing 5 times. Add calls
 # to the draw functions and your own print statements in the indented area
 # to make a pretty repeating pattern of your design.
 
-for count in range(0,5):
-    print(' *-**-*')
-for count in range(0,5):
-    draw_box(1,1)
-    draw_up_triangle(1)
-    draw_box(1,1)
-    draw_down_triangle(1)
-    draw_box(1,1)
-    draw_up_triangle(1)
-    draw_box(1,1)
-    draw_down_triangle(1)
-    print('*')
+for count in range(0, 5):
+    draw_up_triangle()
+    draw_down_triangle()
+    draw_box()
+    draw_box()
+    print()
 
 
